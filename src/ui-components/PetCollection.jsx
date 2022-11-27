@@ -22,15 +22,14 @@ export default function PetCollection(props) {
   const items = itemsProp !== undefined ? itemsProp : itemsDataStore;
   return (
     <Collection
-      type="grid"
-      isSearchable={true}
+      type="list"
+      isSearchable="true"
       isPaginated={true}
       searchPlaceholder="Search..."
       itemsPerPage={4}
-      templateColumns="1fr 1fr"
-      autoFlow="row"
+      direction="column"
       alignItems="stretch"
-      justifyContent="stretch"
+      justifyContent="center"
       items={items || []}
       {...rest}
       {...getOverrideProps(overrides, "PetCollection")}
