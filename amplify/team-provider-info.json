@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-adoteumpet-staging-233011-authRole",
+      "UnauthRoleArn": "arn:aws:iam::869372828024:role/amplify-adoteumpet-staging-233011-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::869372828024:role/amplify-adoteumpet-staging-233011-authRole",
+      "Region": "sa-east-1",
+      "DeploymentBucketName": "amplify-adoteumpet-staging-233011-deployment",
+      "UnauthRoleName": "amplify-adoteumpet-staging-233011-unauthRole",
+      "StackName": "amplify-adoteumpet-staging-233011",
+      "StackId": "arn:aws:cloudformation:sa-east-1:869372828024:stack/amplify-adoteumpet-staging-233011/45d7a3f0-6de2-11ed-bb8b-02abac7dd9f0",
+      "AmplifyAppId": "d2ofaecr31jvqb"
+    },
+    "categories": {
+      "auth": {
+        "adoteumpetf3604764": {}
+      },
+      "api": {
+        "adoteumpet": {}
+      }
+    }
+  }
+}
